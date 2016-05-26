@@ -1,0 +1,49 @@
+1. Save information about the user: 
+git config --global user.name "sunil"
+git config --global user.email "sun.aec@gmail.com"
+
+2. Initialize the folder for git: 
+git init <folder>
+
+3. Get the status of all tracked file, status of branches:
+git status
+
+4. Add files for staging area
+git add .
+
+5. git status --to check which files have been modified
+
+6. Then modify and commit changes by
+git commit -m "Iniial commit"
+
+6. git log  -> to check the various commit points 
+
+7. To view the differences in consecutive files
+git diff 
+
+8. To view the difference even after staging i.e. git add . command
+use git diff --cached
+
+9. git log --oneline  -> one line message of commit histroy
+
+10. git add(staging of files) + commit in one line:
+git commit -a -m "Commit in one line with staging"
+
+11. git staus -s >>>will display the modified file with a star in front of it.
+
+12. ssh-keygen -t rsa -C "sun.aec@gmail.com"  -->create the rsa fingerprint
+
+13. copy the key from ~\.ssh\id_rsa.pub
+
+14. Paste into the github add ssh key
+
+15 to check if everything is alright >>ssh -T git@github.com
+
+16 git remote add origin git@github.com:brownmetal/demo.git
+
+17 git push origin master >>>, push the contents to the repository
+
+
+
+
+git init > git add . > git status > git commit -m "initial commit" > git log
