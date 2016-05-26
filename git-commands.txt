@@ -18,6 +18,8 @@ git commit -m "Iniial commit"
 
 6. git log  -> to check the various commit points 
 
+ng-app
+
 7. To view the differences in consecutive files
 git diff 
 
