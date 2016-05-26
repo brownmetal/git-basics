@@ -43,6 +43,7 @@ git commit -a -m "Commit in one line with staging"
 
 17 git push origin master >>>, push the contents to the repository
 
+18 test
 
 
 
